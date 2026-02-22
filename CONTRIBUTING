@@ -1,0 +1,159 @@
+# Contributing Guide
+
+First off, thank you for considering contributing ❤️
+This project grows because of people like you.
+
+---
+
+## Ways to Contribute
+
+You can contribute in many ways:
+
+* Reporting bugs
+* Suggesting features or improvements
+* Improving documentation
+* Submitting bug fixes
+* Adding new features
+* Reviewing pull requests
+
+---
+
+## Before You Start
+
+Please make sure to:
+
+1. Read the README.
+2. Check existing issues to avoid duplicates.
+3. Open an issue before starting large changes.
+
+---
+
+## Development Setup
+
+### 1. Fork the Repository
+
+Click **Fork** and clone your fork:
+
+```bash
+git clone https://github.com/yash1648/github-final-project.git
+cd <repo-name>
+```
+
+### 2. Create a Branch
+
+Use a descriptive branch name:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+Examples:
+
+* `feature/add-authentication`
+* `fix/login-bug`
+* `docs/update-readme`
+
+---
+
+## Coding Guidelines
+
+### General Principles
+
+* Keep code simple and readable.
+* Follow existing project structure and style.
+* Write meaningful commit messages.
+* Add comments where necessary.
+
+### Commit Message Format
+
+Use clear and descriptive messages:
+
+```
+type(scope): short description
+
+Examples:
+feat(auth): add JWT authentication
+fix(api): handle null pointer exception
+docs(readme): update setup instructions
+```
+
+Common commit types:
+
+* `feat` → new feature
+* `fix` → bug fix
+* `docs` → documentation
+* `refactor` → code refactoring
+* `test` → tests
+* `chore` → maintenance
+
+---
+
+## Pull Request Process
+
+1. Ensure your branch is up to date:
+
+   ```bash
+   git pull origin main
+   ```
+
+2. Run tests and verify your changes.
+
+3. Push your branch:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+4. Open a Pull Request and include:
+
+   * Clear title and description
+   * Screenshots (if UI changes)
+   * Linked issue (if applicable)
+
+---
+
+## Pull Request Checklist
+
+Before submitting, confirm:
+
+* Code builds successfully
+* No unnecessary files included
+* Documentation updated if needed
+* Changes are focused and minimal
+* Tests added or updated (if applicable)
+
+---
+
+## Issue Guidelines
+
+### Bug Report
+
+Include:
+
+* Steps to reproduce
+* Expected behavior
+* Actual behavior
+* Environment details
+
+### Feature Request
+
+Include:
+
+* Problem you want to solve
+* Proposed solution
+* Possible alternatives
+
+---
+
+## Code Review
+
+All contributions will be reviewed by maintainers.
+Feedback is part of the process—please be patient and open to suggestions.
+
+---
+
+## Need Help?
+
+If you’re unsure about anything, open an issue and ask. We’re happy to help new contributors get started.
+
+Thank you for contributing 🚀
